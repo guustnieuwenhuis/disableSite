@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>disableSite</name>
+	<package>disableSite</package>
+	<loadPriority>5</loadPriority>
+	<version>0.1.0</version>
+	<provider>Guust Nieuwenhuis</provider>
+	<providerURL>http://www.lagaffe.be</providerURL>
+	<category>Application</category>
+	<settings />
+	<EventHandlers>
+		<eventHandler event="onSiteRequestStart" component="eventHandlers.onSiteRequestStart" persist="true" />
+	</EventHandlers>
+	<DisplayObjects />
+</plugin>
