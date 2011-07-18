@@ -4,14 +4,13 @@
 
 <cfinclude template="plugin/config.cfm" />
 
-<cfsilent>
-	<!--- TODO: Implement code... --->
-</cfsilent>
-
 <cfsavecontent variable="variables.body">
 	<cfoutput>
 	<h2>#request.pluginConfig.getName()#</h2>
-	<!--- TODO: Implement code... --->
+	<p>Thank you for installing disableSite!</p>
+	<h3>What's next?</h3>
+	<h4>Disable a site</h4>
+	<p>So you want to make one or more of your sites unavailable to the outside world? Well just activiate the plugin on the sites that you want to disable and you're done. You'll still be able to access the site when you're logged in as a superadmin.</p>
 	</cfoutput>
 </cfsavecontent>
 
