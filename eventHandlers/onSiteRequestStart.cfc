@@ -21,7 +21,7 @@ limitations under the License.
 <cfcomponent extends="mura.plugin.pluginGenericEventHandler">
 
 	<cffunction name="onSiteRequestStart" access="public" returntype="void" output="false">
-		<cfargument name="event" />
+		<cfargument name="$" />
 		
 		<cfset var local = StructNew() />
 		
@@ -31,7 +31,7 @@ limitations under the License.
 			
 			<cfloop query="local.qSites">
 				<cfif NOT local.qSites.siteId EQ local.site>
-					<cflocation url="#$.createHREF(siteid=local.qSites.siteId)#" addtoken="false" >
+					<cflocation url="#$.createHREF(filename='', siteid=local.qSites.siteId, complete=true)#" addtoken="false" >
 				</cfif>
 			</cfloop>
 		</cfif>

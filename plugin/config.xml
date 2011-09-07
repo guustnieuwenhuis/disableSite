@@ -22,7 +22,7 @@ limitations under the License.
 	<name>disableSite</name>
 	<package>disableSite</package>
 	<loadPriority>5</loadPriority>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<provider>Guust Nieuwenhuis</provider>
 	<providerURL>http://www.lagaffe.be</providerURL>
 	<category>Application</category>
